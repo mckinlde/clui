@@ -279,8 +279,8 @@ const CraigslistFiltersPanel = () => {
       </div>
 
       <div className="p-4 space-y-0">
-        {/*
-        {/* Purveyor Selector 
+        
+        {/* Purveyor Selector */}
         <div className="py-3 border-b border-gray-200">
           <div className="flex items-center border border-gray-300 rounded-md overflow-hidden bg-white">
             {['all', 'owner', 'dealer'].map((option) => (
@@ -302,7 +302,7 @@ const CraigslistFiltersPanel = () => {
         </div>
 
 
-        {/* Location 
+        {/* Location */}
         <div className="py-3 border-b border-gray-200">
           <div className="text-sm font-medium text-gray-700 mb-2">miles from location</div>
           <div className="flex items-center gap-2 mb-2">
@@ -324,7 +324,6 @@ const CraigslistFiltersPanel = () => {
           </div>
           <Button variant="link" className="h-auto p-0 text-sm text-blue-600">use map...</Button>
         </div> 
-*/}
 
         {/* Price */}
         {renderRangeInput('price', 'min', 'max', 'minPrice', 'maxPrice', '$')}
